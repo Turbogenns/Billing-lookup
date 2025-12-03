@@ -1,0 +1,16 @@
+{
+  "name": "ontario-billing-lookup",
+  "version": "1.0.0",
+  "description": "Ontario OHIP billing code lookup tool",
+  "main": "api/lookup.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step needed'"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.16.0"
+  },
+  "devDependencies": {
+    "vercel": "^latest"
+  }
+}
