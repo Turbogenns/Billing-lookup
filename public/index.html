@@ -299,10 +299,7 @@
     </div>
 
     <script>
-      const API_URL =
-        process.env.NODE_ENV === "development"
-          ? "http://localhost:3000/api/lookup"
-          : "/api/lookup";
+      const API_URL = "/api/lookup";
 
       let conversationHistory = [];
       let currentAssistantMessage = "";
