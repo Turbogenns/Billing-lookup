@@ -11,6 +11,6 @@
     "@anthropic-ai/sdk": "^0.16.0"
   },
   "devDependencies": {
-    "vercel": "^latest"
+    "vercel": "latest"
   }
 }
